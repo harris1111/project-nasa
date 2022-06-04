@@ -6,7 +6,7 @@
   "scripts": {
     "install-server": "npm install --prefix server",
     "install-client": "npm install --prefix client",
-    "install" : "npm run install-server && npm run install-client",
+    "install": "npm run install-server && npm run install-client",
     "server": "npm run watch --prefix server",
     "client": "npm start --prefix client",
     "watch": "npm run server & npm run client",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/harris1111/project-nasa/issues"
   },
-  "homepage": "https://github.com/harris1111/project-nasa#readme"
+  "homepage": "https://github.com/harris1111/project-nasa#readme",
+  "dependencies": {
+    "socket.io": "^4.5.1"
+  }
 }
